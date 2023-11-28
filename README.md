@@ -12,12 +12,6 @@ docker build -t bot-backend .
 
 This command will build the Docker image with the tag "bot-backend".
 
-## Run Docker Container
-
-After successfully building the Docker image, run the following command to start a Docker container:
-
-
-This command will build the Docker image with the tag "bot-backend".
 
 ## Run Docker Container
 
