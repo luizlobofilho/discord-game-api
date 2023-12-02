@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to the PyMongo tutorial!"}
+    return {"message": "Welcome to the Bot Backend!"}
