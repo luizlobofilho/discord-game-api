@@ -1,0 +1,20 @@
+{
+    "Id" : "unique identifier",
+    "Name" : "mission name",
+    "Description" : "mission description",
+    "Objectives" : [
+        {
+            "LocationId" : "location id",
+            "EncounterId" : "encounter id"
+        },
+        {
+            "LocationId" : "location id",
+            "EncounterId" : "encounter id"
+        }
+    ],
+    "Reward" : {
+        "RewardType" : "Item", 
+        "ItemId" : "GUID do Item",
+        "DropWeight" : 10
+    }
+}
