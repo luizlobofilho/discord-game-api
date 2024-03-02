@@ -1,0 +1,6 @@
+{
+    "Id" : "unique identifier",
+    "Name" : "Location Name",
+    "Description" :  "Location Description",
+    "PossibleDestinations" : [ "Location Id", "another location Id" ]
+}
