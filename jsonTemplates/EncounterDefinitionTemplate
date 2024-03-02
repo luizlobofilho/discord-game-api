@@ -1,0 +1,80 @@
+{
+    "Id" : "unique identifier",
+    "Name" : "Encounter Name",
+    "Description" : "Encounter Description",
+    "Difficulty" : {
+        "Com" : 3,
+        "Inv" : 5,
+        "Car" : 9
+    },
+    "Rewards" : {
+        "Com" : {
+            "Regular" : [ 
+                {
+                    "RewardType" : "Item", 
+                    "ItemId" : "GUID do Item",
+                    "DropWeight" : 10
+                }
+            ],
+            "Glorious" : [ 
+                {
+                    "RewardType" : "Character", 
+                    "CharacterId" : "GUID do Character",
+                    "DropWeight" : 1
+                }
+            ]
+        },
+        "Inv" : {
+            "Regular" : [ 
+                {
+                    "RewardType" : "Item", 
+                    "ItemId" : "GUID do Item",
+                    "DropWeight" : 10
+                }
+            ],
+            "Glorious" : [ 
+                {
+                    "RewardType" : "Character", 
+                    "CharacterId" : "GUID do Character",
+                    "DropWeight" : 1
+                }
+            ]
+        },
+        "Car" : {
+            "Regular" : [ 
+                {
+                    "RewardType" : "Item", 
+                    "ItemId" : "GUID do Item",
+                    "DropWeight" : 10
+                }
+            ],
+            "Glorious" : [ 
+                {
+                    "RewardType" : "Character", 
+                    "CharacterId" : "GUID do Character",
+                    "DropWeight" : 1
+                }
+            ]
+        }
+    },
+    "ResultMessages" : {
+        "Com" : {
+            "Success" : "Descrição do que acontece quando superam com sucesso um encontro de combate",
+            "Fail" : "Descrição do que acontece quando falham em superar um encontro de combate",
+            "GloriousSuccess" : "Descrição do que acontece quando há um sucesso glorioso de combate",
+            "CriticalFail" : "Descrição do que acontece quando falham miseravelmente no encontro de combate"
+        },
+        "Inv" : {
+            "Success" : "Descrição do que acontece quando superam com sucesso um encontro de investigação",
+            "Fail" : "Descrição do que acontece quando falham em superar um encontro de investigação",
+            "GloriousSuccess" : "Descrição do que acontece quando há um sucesso glorioso de investigação",
+            "CriticalFail" : "Descrição do que acontece quando falham miseravelmente no encontro de investigação"
+        },
+        "Car" : {
+            "Success" : "Descrição do que acontece quando superam com sucesso um encontro de carisma",
+            "Fail" : "Descrição do que acontece quando falham em superar um encontro de carisma",
+            "GloriousSuccess" : "Descrição do que acontece quando há um sucesso glorioso de carisma",
+            "CriticalFail" : "Descrição do que acontece quando falham miseravelmente no encontro de carisma"
+        }
+    }
+}
