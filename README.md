@@ -26,3 +26,5 @@ This command will run a Docker container named "bot-backend-container" and publi
 Now, you should have the Bot Backend API up and running.
 
 Feel free to customize and adapt these instructions according to the specifics of your project. Ensure that Docker is installed on your system before running these commands.
+
+http://localhost:8000/
