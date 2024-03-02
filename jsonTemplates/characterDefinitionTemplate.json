@@ -1,0 +1,49 @@
+{
+    "Id" : "guid",
+    "name" : "Personagem Generico",
+    "initialStats": {
+        "Com" : 1,
+        "Inv" : 1,
+        "Soc" : 1,
+        "ItemSlots" : 0
+        
+    },
+    "progressData": [
+        {
+            "level": 1,
+            "Com" : 0,
+            "Inv" : 0,
+            "Soc" : 4,
+            "ItemSlot" : 1
+        },
+        {
+            "level": 2,
+            "Com" : 0,
+            "Inv" : 1,
+            "Soc" : 1,
+            "Skill" : "Guid da skill"
+        },
+        {
+            "level": 3,
+            "Com" : 0,
+            "Inv" : 1,
+            "Soc" : 1,
+            "ItemSlot" : 1
+        },
+        {
+            "level": 4,
+            "Com" : 1,
+            "Inv" : 1,
+            "Soc" : 0,
+            "Skill" : "Guid da skill"
+        },
+        {
+            "level": 5,
+            "Com" : 1,
+            "Inv" : 1,
+            "Soc" : 1,
+            "Skill" : "Guid da skill",
+            "ItemSlot" : 1
+        }
+    ]  
+}

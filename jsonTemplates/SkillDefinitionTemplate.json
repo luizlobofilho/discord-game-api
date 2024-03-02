@@ -1,0 +1,9 @@
+{
+    "Id" : "guid",
+    "Name" : "Template Skill",
+    "StatBonus" : {
+        "Com" : 0,
+        "Inv" : 1,
+        "Soc" : 0 
+    }
+}

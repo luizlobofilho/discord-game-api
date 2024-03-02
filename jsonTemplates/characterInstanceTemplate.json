@@ -1,0 +1,18 @@
+{
+    "Name" : "Personagem Generico",
+    "Level" : 1,
+    "StatsBase": {
+        "Com" : 1,
+        "Inv" : 1,
+        "Soc" : 1    
+    },
+    "StatsModifiers": {
+        "Com" : 0,
+        "Inv" : 1,
+        "Soc" : 0    
+    },
+    "Skills" : [ ],
+
+    "ItemSlots" : 2,
+    "Items" : [ "Guid do Item" ]
+}
