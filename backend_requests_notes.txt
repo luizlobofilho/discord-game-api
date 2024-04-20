@@ -1,0 +1,15 @@
+Player Account:
+    - GetPlayerAccount( playerUID );
+
+    {
+        playerId: "id que veio do discord",
+        missionInstanceId: "Id unico"
+    }
+
+Characters:
+    - GetAllCharacterInstances() //Retorna todas os elementos da "tabela" CharacterInstances
+
+Missions:
+    - GetAllMissions() //Retorna todos os elementos da "tabela" MissionDefinitions
+
+    - CreateNewMissionInstance(playerUID, missionDefinitionId, selectedCharacterInstanceIdList[]) //Envia para o backend os dados para criar um novo elemento na tabela MissionInstances
